@@ -1,0 +1,52 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+.game-container {
+    margin-top: 50px;
+}
+
+#balance {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#farm-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#farm-bg {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#inventory {
+    margin-top: 20px;
+}
+
+#inventory-img.hidden {
+    display: none;
+}
+
+#inventory-count {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#sell-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
