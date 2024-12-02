@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulasi Pertanian</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Simulasi Pertanian</h1>
+        
+        <div id="balance">
+            <h2>Saldo: Rp <span id="balance-amount">1000</span></h2>
+        </div>
+
+        <div id="farm-container">
+            <img src="farm-background.jpg" alt="Latar Belakang Pertanian" id="farm-bg">
+            <button id="plant-btn">Tanam Padi</button>
+            <p id="countdown"></p>
+        </div>
+
+        <div id="inventory">
+            <h2>Inventori</h2>
+            <div id="inventory-img" class="hidden">
+                <img src="rice-icon.png" alt="Padi" id="rice-icon">
+            </div>
+            <p id="inventory-count">0</p>
+        </div>
+
+        <button id="sell-btn">Jual Padi</button>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
